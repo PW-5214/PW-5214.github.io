@@ -1,9 +1,114 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .resume {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
 <body>
-  <h1>PRATHMESH WAVHAL</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
 
+    <div class="resume">
+        <!-- Personal Information -->
+        <section class="section" id="personal-info">
+            <h1>John Doe</h1>
+            <p>Email: johndoe@example.com | Phone: +123-456-7890</p>
+            <p>Location: 123 Main St, City, Country</p>
+        </section>
+
+        <!-- Summary -->
+        <section class="section" id="summary">
+            <h2>Summary</h2>
+            <p>A results-driven software engineer with 5+ years of experience in web development, specializing in JavaScript, Python, and cloud technologies. Proven track record in leading teams, delivering high-quality software, and solving complex technical problems.</p>
+        </section>
+
+        <!-- Education -->
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>University of Example, 2015 - 2019</p>
+                    <p>Graduated with Honors</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="section" id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Senior Software Engineer</h3>
+                    <p>Example Tech Inc., 2021 - Present</p>
+                    <ul>
+                        <li>Led a team of 6 developers to build scalable web applications.</li>
+                        <li>Designed and implemented new features in a SaaS platform used by thousands of users.</li>
+                        <li>Improved performance of existing codebase by 25% through optimization.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Software Developer</h3>
+                    <p>Tech Solutions, 2019 - 2021</p>
+                    <ul>
+                        <li>Worked on full-stack development using JavaScript, Node.js, and React.</li>
+                        <li>Collaborated with cross-functional teams to deliver solutions on time.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: JavaScript, Python, Java</li>
+                <li>Web Technologies: HTML, CSS, React, Node.js</li>
+                <li>Tools: Git, Docker, AWS, Jenkins</li>
+            </ul>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section" id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified Kubernetes Administrator (CKA)</li>
+                <li>AWS Certified Solutions Architect – Associate</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
 </html>
+
